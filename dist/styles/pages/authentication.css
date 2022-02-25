@@ -1,0 +1,2 @@
+.login-hero{background-color:#639dff;color:#fff;display:none!important;padding:0 30px!important}@media (min-width:768px){.login-hero{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important}}@media (min-width:1600px){.login-hero{padding:0 100px!important}}.login-hero__title{font-size:48px}.login-hero__text{font-size:18px}.login-hero img{display:block;margin:30px auto 0;max-height:400px;max-width:80%}@media (min-width:1600px){.login-hero img{max-height:none;max-width:none}}
+/*# sourceMappingURL=authentication.css.map */

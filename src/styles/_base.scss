@@ -1,0 +1,28 @@
+a {
+  &:link,
+  &:active {
+    color: $primaryColor;
+    text-decoration: none;
+  }
+}
+
+.btn {
+  &.btn-primary {
+    background-color: $primaryColor700;
+    border-color: $primaryColor700;
+
+    &:hover {
+      background-color: darken($primaryColor700, 10%);
+      border-color: darken($primaryColor700, 10%);
+    }
+  }
+}
+
+.cta-btn-shadow {
+  box-shadow: 0px 10px 10px rgba(98, 155, 255, 0.2);
+}
+
+.form-check-input:checked {
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+}
